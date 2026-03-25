@@ -1,6 +1,6 @@
-# 🛡️ AIDS — Autonomous Intrusion Detection System
+# AIDS - Autonomous Intrusion Detection System
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 
 AIDS (Autonomous Intrusion Detection System) es un sistema de detección de intrusos que desarrollé con el objetivo de monitorear tráfico de red en tiempo real y detectar posibles amenazas de forma automática.
 
@@ -12,7 +12,7 @@ Cuando una IP supera cierto nivel de riesgo, el sistema puede tomar acciones aut
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 El objetivo de este proyecto es demostrar cómo se puede construir un sistema básico pero funcional de detección y prevención de intrusos, capaz de:
 
@@ -23,7 +23,7 @@ El objetivo de este proyecto es demostrar cómo se puede construir un sistema b�
 
 ---
 
-## ⚙️ ¿Qué hace el sistema?
+## ⚙️ ¿Qué hace el Sistema?
 
 De forma general, el sistema:
 
@@ -38,7 +38,7 @@ También incluye un panel en consola que muestra en vivo lo que está pasando en
 
 ---
 
-## 🚨 Tipos de ataques que detecta
+## Tipos de Ataques que Detecta
 
 Durante el desarrollo implementé detección para varios escenarios comunes en ciberseguridad, como por ejemplo:
 
@@ -51,7 +51,7 @@ Durante el desarrollo implementé detección para varios escenarios comunes en c
 
 ---
 
-## 🧠 ¿Cómo funciona internamente?
+## ¿Cómo funciona internamente?
 
 El sistema sigue una lógica bastante directa:
 
@@ -67,7 +67,7 @@ El sistema sigue una lógica bastante directa:
 
 ---
 
-## 🧪 Tecnologías utilizadas
+## Tecnologías Utilizadas
 
 * Python 3
 * Scapy (para captura y análisis de paquetes)
@@ -76,7 +76,7 @@ El sistema sigue una lógica bastante directa:
 
 ---
 
-## 📊 Aplicación del proyecto
+## Aplicación del Proyecto
 
 Este sistema puede utilizarse en:
 
@@ -87,7 +87,7 @@ Este sistema puede utilizarse en:
 
 ---
 
-## ⚠️ Consideraciones
+## Consideraciones
 
 * El sistema necesita permisos de administrador para funcionar correctamente
 * Está pensado principalmente para entornos Linux
@@ -95,7 +95,7 @@ Este sistema puede utilizarse en:
 
 ---
 
-## 📌 Conclusión
+## Conclusión
 
 Con este proyecto quise demostrar que es posible implementar un sistema funcional de detección de intrusos desde cero, combinando análisis de tráfico, detección de patrones y aprendizaje básico del comportamiento de la red.
 
