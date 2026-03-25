@@ -112,7 +112,10 @@ cd AIDS
 Instala las dependencias necesarias:
 
 ```bash
-pip install -r requirements.txt
+pip install scapy --break-system-packages
+pip install netifaces --break-system-packages
+pip install colorama --break-system-packages
+pip install tabulate --break-system-packages
 ```
 
 ---
@@ -133,7 +136,7 @@ sudo python3 AIDS.py -i eth0
 
 ---
 
-## Modos de uso
+## Modos de Uso
 
 ### Modo Normal (Bloqueo Activo)
 
@@ -147,7 +150,7 @@ sudo python3 AIDS.py -i eth0
 sudo python3 AIDS.py --no-block
 ```
 
-### 🎯 Configuración Personalizada
+### Configuración Personalizada
 
 ```bash
 sudo python3 AIDS.py --quarantine-score 40 --block-score 60 --block-time 600
