@@ -95,7 +95,7 @@ Este sistema puede utilizarse en:
 
 ---
 
-## 📥 Instalación
+## Instalación
 
 Para utilizar este proyecto, primero debes clonar el repositorio desde GitHub:
 
@@ -117,51 +117,51 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Ejecución
+## Ejecución
 
 Ejecuta el sistema con privilegios de administrador (necesario para captura de paquetes y uso de firewall):
 
 ```bash
-sudo python3 ids_avanzado.py -i <INTERFAZ>
+sudo python3 AIDS.py -i <INTERFAZ>
 ```
 
 Ejemplo:
 
 ```bash
-sudo python3 ids_avanzado.py -i eth0
+sudo python3 AIDS.py -i eth0
 ```
 
 ---
 
-## ⚙️ Modos de uso
+## Modos de uso
 
-### 🔒 Modo normal (bloqueo activo)
+### Modo Normal (Bloqueo Activo)
 
 ```bash
-sudo python3 ids_avanzado.py -i eth0
+sudo python3 AIDS.py -i eth0
 ```
 
-### 👀 Solo monitoreo (sin bloquear)
+### Solo Monitoreo (Sin Bloquear)
 
 ```bash
-sudo python3 ids_avanzado.py --no-block
+sudo python3 AIDS.py --no-block
 ```
 
-### 🎯 Configuración personalizada
+### 🎯 Configuración Personalizada
 
 ```bash
-sudo python3 ids_avanzado.py --quarantine-score 40 --block-score 60 --block-time 600
+sudo python3 AIDS.py --quarantine-score 40 --block-score 60 --block-time 600
 ```
 
-### 🛡️ Con whitelist (evitar bloquear red local)
+### Con Whitelist (Evitar Bloquear Red Local)
 
 ```bash
-sudo python3 ids_avanzado.py -w 192.168.1.0/24 -j
+sudo python3 AIDS.py -w 192.168.1.0/24 -j
 ```
 
 ---
 
-## ⚠️ Requisitos
+## Requisitos
 
 * Sistema operativo Linux
 * Python 3
