@@ -95,8 +95,81 @@ Este sistema puede utilizarse en:
 
 ---
 
-## Conclusión
+## 📥 Instalación
 
-Con este proyecto quise demostrar que es posible implementar un sistema funcional de detección de intrusos desde cero, combinando análisis de tráfico, detección de patrones y aprendizaje básico del comportamiento de la red.
+Para utilizar este proyecto, primero debes clonar el repositorio desde GitHub:
 
-Aunque no reemplaza soluciones profesionales, sí sirve como una base sólida para entender cómo funcionan este tipo de herramientas en la práctica.
+```bash
+git clone https://github.com/STW-Ruben/AIDS.git
+```
+
+Luego accede al directorio del proyecto:
+
+```bash
+cd AIDS
+```
+
+Instala las dependencias necesarias:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 Ejecución
+
+Ejecuta el sistema con privilegios de administrador (necesario para captura de paquetes y uso de firewall):
+
+```bash
+sudo python3 ids_avanzado.py -i <INTERFAZ>
+```
+
+Ejemplo:
+
+```bash
+sudo python3 ids_avanzado.py -i eth0
+```
+
+---
+
+## ⚙️ Modos de uso
+
+### 🔒 Modo normal (bloqueo activo)
+
+```bash
+sudo python3 ids_avanzado.py -i eth0
+```
+
+### 👀 Solo monitoreo (sin bloquear)
+
+```bash
+sudo python3 ids_avanzado.py --no-block
+```
+
+### 🎯 Configuración personalizada
+
+```bash
+sudo python3 ids_avanzado.py --quarantine-score 40 --block-score 60 --block-time 600
+```
+
+### 🛡️ Con whitelist (evitar bloquear red local)
+
+```bash
+sudo python3 ids_avanzado.py -w 192.168.1.0/24 -j
+```
+
+---
+
+## ⚠️ Requisitos
+
+* Sistema operativo Linux
+* Python 3
+* Permisos de superusuario (root)
+* Interfaz de red válida (eth0, wlan0, etc.)
+
+Para ver tus interfaces disponibles:
+
+```bash
+ip a
+```
