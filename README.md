@@ -172,7 +172,19 @@ El sistema desarrollado analiza múltiples protocolos de red, incluyendo ICMP, T
 
 Es importante destacar que esta implementación corresponde a una versión simplificada del sistema AIDS, por lo que presenta ciertas limitaciones. En primer lugar, no se incorpora un modelo de aprendizaje automático entrenado con datos reales
 
+### Modo de Solo Monitoreo del AIDS
+
 <img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/3133184c-ba1b-49dd-9d0d-b2e4771c5a14" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/f10f8f8b-2b0d-4283-8932-fe769481a880" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/44dcb8b1-55a3-4f07-b67e-f19d3dc1030c" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/80ff8405-dea5-4a59-988c-78689e20c5bb" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/b453e9cc-c675-436c-9e55-db81fea50899" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/73e82eb7-1f00-4878-bd72-cf32b90b7869" />
 
 ---
 ## Requisitos
