@@ -186,7 +186,18 @@ Es importante destacar que esta implementación corresponde a una versión simpl
 
 <img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/73e82eb7-1f00-4878-bd72-cf32b90b7869" />
 
+### Modo de Cuarentena y Bloqueo del AIDS
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/5f3c9a5f-e93c-41bc-bbf4-cd1f34e1ae11" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/d6505c22-1b16-4bf9-bd29-405479968877" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/f9a01880-5a12-43e9-9c03-16a35794596c" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/b544e2a8-9de4-4c4d-8b93-1ba2b8e71340" />
+
 ---
+
 ## Requisitos
 
 * Sistema operativo Linux
