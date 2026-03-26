@@ -164,6 +164,17 @@ sudo python3 AIDS.py -w 192.168.1.0/24 -j
 
 ---
 
+## Pruebas
+
+Con el objetivo de demostrar la viabilidad del sistema propuesto, se desarrolló una implementación simplificada utilizando el lenguaje de programación Python, la cual permite simular el comportamiento del modelo AIDS en un entorno real de red. Esta implementación se basa en la captura de tráfico en tiempo real y el análisis de patrones de comportamiento mediante el uso de umbrales, replicando la lógica planteada en el algoritmo teórico.
+
+El sistema desarrollado analiza múltiples protocolos de red, incluyendo ICMP, TCP y UDP, con el fin de identificar posibles comportamientos anómalos como ataques de denegación de servicio, escaneos de puertos y accesos no autorizados. Para ello, se emplea una estructura de contadores por dirección IP, junto con ventanas de tiempo que permiten evaluar la actividad en intervalos específicos, aproximándose al concepto de línea base definido en el modelo original. Inclusive tiene un modo exclusivo para solo monitoreo en caso de no querer bloquear alguna red, y otro modo el cual pone en cuarentena el sistema por si el ataque se detiene, en caso de que no sea así pues bloqueara la red o host que lo este atacando.
+
+Es importante destacar que esta implementación corresponde a una versión simplificada del sistema AIDS, por lo que presenta ciertas limitaciones. En primer lugar, no se incorpora un modelo de aprendizaje automático entrenado con datos reales
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/3133184c-ba1b-49dd-9d0d-b2e4771c5a14" />
+
+---
 ## Requisitos
 
 * Sistema operativo Linux
